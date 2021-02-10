@@ -4,7 +4,7 @@ $UbuntuDownloadedFile='Ubuntu.appx'
 # Enter Current Direction
 cd $PSScriptRoot
 cd ..
-cd "Downloads"
+cd "downloads"
 $CurrentPath=Get-Location
 $CurrentPath=$CurrentPath.Path
 
